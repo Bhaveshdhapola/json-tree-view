@@ -60,9 +60,9 @@ select#ftype {
 
   /* (B3) A SQUARE CUSTOM ARROW BOX */
   /* ADD BORDER-RADIUS: 50% TO TURN IT CIRCLE */
-  .cselect::after {
+  /* .cselect::after { */
     /* width: 42px; */
-  }
+  /* } */
 
   /* (C) COSMETICS */
   /* (C1) OVERRIDE DEFAULT SELECT BOX STYLES */
@@ -132,3 +132,18 @@ select#ftype {
   span.ok {
     float: right;
   }
+  .deleteChild{
+    float: right;
+  }
+
+  ul{
+    list-style: none;
+    /* background-color: white; */
+}
+
+li:hover .deleteChild,
+li:hover{
+    background-color: #D9D9D9;
+    fill: #FF0000;
+    cursor: pointer;
+}
